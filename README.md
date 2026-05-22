@@ -24,7 +24,7 @@ The lab simulates a Tier 1 SOC analyst's investigation workflow across 7 phases:
 2. **Lab data creation** 4 sample log formats (SSH auth, Apache access, custom security events, custom application)
 3. **Pattern library** 12 documented IOC extraction patterns with breakdown and bash usage
 4. **Manual extraction** grep based IOC extraction with output saved as forensic evidence files
-5. **Python automation** — IOC extractor categorizing findings across multiple log formats with suspicious-pattern flagging
+5. **Python automation** IOC extractor categorizing findings across multiple log formats with suspicious-pattern flagging
 6. **SIEM deployment** 5 optimized Splunk SPL queries demonstrating validated extraction, multi-pattern parsing, IOC watchlisting, attack classification, and hash-based detection
 7. **Custom log onboarding** Python parser turning non-standard application logs into structured JSON ready for SIEM ingestion
 
