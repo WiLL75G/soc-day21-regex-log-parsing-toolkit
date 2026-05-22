@@ -1,0 +1,7 @@
+[2026-01-10T02:14:00Z] ALERT user=root src_ip=203.0.113.45 dst_port=22 event=BRUTE_FORCE attempts=47
+[2026-01-10T02:30:00Z] INFO user=sysadmin src_ip=192.168.1.100 dst_port=22 event=LOGIN_SUCCESS
+[2026-01-10T03:14:00Z] CRITICAL user=admin email=admin@company.com event=PHISHING_CLICK url=http://paypa1.com/login
+[2026-01-10T04:22:00Z] HIGH src_ip=10.0.2.87 dst_ip=10.0.3.0/24 event=PORT_SCAN ports_scanned=1000
+[2026-01-10T05:33:00Z] HIGH user=svc_backup2 event=ACCOUNT_CREATED created_by=Administrator
+[2026-01-10T07:58:00Z] CRITICAL hash=a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4 file=invoice.exe event=MALWARE_DETECTED
+[2026-01-10T08:14:00Z] INFO user=jsmith email=jsmith@company.com src_ip=192.168.1.155 event=LOGIN_SUCCESS

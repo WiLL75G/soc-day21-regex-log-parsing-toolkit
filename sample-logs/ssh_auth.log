@@ -1,0 +1,7 @@
+Jan 10 02:14:33 server sshd[1234]: Failed password for root from 203.0.113.45 port 52841 ssh2
+Jan 10 02:14:35 server sshd[1234]: Failed password for admin from 203.0.113.45 port 52842 ssh2
+Jan 10 02:14:37 server sshd[1234]: Failed password for root from 198.51.100.22 port 41337 ssh2
+Jan 10 02:14:41 server sshd[1234]: Accepted password for sysadmin from 192.168.1.100 port 22 ssh2
+Jan 10 03:22:18 server sshd[1235]: Failed password for root from 185.220.101.33 port 44201 ssh2
+Jan 10 03:22:21 server sshd[1235]: Failed password for ubuntu from 185.220.101.33 port 44202 ssh2
+Jan 10 06:01:00 server sshd[1236]: Accepted password for deploy from 10.0.1.50 port 22 ssh2

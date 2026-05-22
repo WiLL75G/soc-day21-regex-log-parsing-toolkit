@@ -1,0 +1,131 @@
+{
+  "total_events": 7,
+  "total_alerts": 6,
+  "alerts": [
+    {
+      "line": 1,
+      "alert_type": "brute_force",
+      "severity": "ERROR",
+      "ip": "203.0.113.45",
+      "uid": "1001",
+      "component": "AUTH",
+      "timestamp": "10-Jan-2026 02:14:33.421",
+      "message": "Authentication failed - bad credentials - attempt 1 of 5"
+    },
+    {
+      "line": 2,
+      "alert_type": "brute_force",
+      "severity": "ERROR",
+      "ip": "203.0.113.45",
+      "uid": "1001",
+      "component": "AUTH",
+      "timestamp": "10-Jan-2026 02:14:35.112",
+      "message": "Authentication failed - bad credentials - attempt 2 of 5"
+    },
+    {
+      "line": 3,
+      "alert_type": "brute_force",
+      "severity": "ERROR",
+      "ip": "203.0.113.45",
+      "uid": "1001",
+      "component": "AUTH",
+      "timestamp": "10-Jan-2026 02:14:37.334",
+      "message": "Authentication failed - bad credentials - attempt 3 of 5"
+    },
+    {
+      "line": 4,
+      "alert_type": "account_locked",
+      "severity": "CRITICAL",
+      "ip": "203.0.113.45",
+      "uid": "1001",
+      "component": "AUTH",
+      "timestamp": "10-Jan-2026 02:14:39.551",
+      "message": "Account LOCKED - max attempts exceeded"
+    },
+    {
+      "line": 6,
+      "alert_type": "admin_query",
+      "severity": "INFO",
+      "ip": "192.168.1.100",
+      "uid": "2055",
+      "component": "DB",
+      "timestamp": "10-Jan-2026 06:01:25.881",
+      "message": "Query executed - SELECT * FROM users WHERE admin=1"
+    },
+    {
+      "line": 7,
+      "alert_type": "suspicious_query",
+      "severity": "WARNING",
+      "ip": "192.168.1.100",
+      "uid": "2055",
+      "component": "DB",
+      "timestamp": "10-Jan-2026 06:01:28.443",
+      "message": "Unusual query pattern detected - possible enumeration"
+    }
+  ],
+  "events": [
+    {
+      "timestamp": "10-Jan-2026 02:14:33.421",
+      "level": "ERROR",
+      "component": "AUTH",
+      "uid": "1001",
+      "ip": "203.0.113.45",
+      "message": "Authentication failed - bad credentials - attempt 1 of 5",
+      "line": 1
+    },
+    {
+      "timestamp": "10-Jan-2026 02:14:35.112",
+      "level": "ERROR",
+      "component": "AUTH",
+      "uid": "1001",
+      "ip": "203.0.113.45",
+      "message": "Authentication failed - bad credentials - attempt 2 of 5",
+      "line": 2
+    },
+    {
+      "timestamp": "10-Jan-2026 02:14:37.334",
+      "level": "ERROR",
+      "component": "AUTH",
+      "uid": "1001",
+      "ip": "203.0.113.45",
+      "message": "Authentication failed - bad credentials - attempt 3 of 5",
+      "line": 3
+    },
+    {
+      "timestamp": "10-Jan-2026 02:14:39.551",
+      "level": "CRITICAL",
+      "component": "AUTH",
+      "uid": "1001",
+      "ip": "203.0.113.45",
+      "message": "Account LOCKED - max attempts exceeded",
+      "line": 4
+    },
+    {
+      "timestamp": "10-Jan-2026 06:01:22.004",
+      "level": "INFO",
+      "component": "AUTH",
+      "uid": "2055",
+      "ip": "192.168.1.100",
+      "message": "Authentication successful - session started",
+      "line": 5
+    },
+    {
+      "timestamp": "10-Jan-2026 06:01:25.881",
+      "level": "INFO",
+      "component": "DB",
+      "uid": "2055",
+      "ip": "192.168.1.100",
+      "message": "Query executed - SELECT * FROM users WHERE admin=1",
+      "line": 6
+    },
+    {
+      "timestamp": "10-Jan-2026 06:01:28.443",
+      "level": "WARNING",
+      "component": "DB",
+      "uid": "2055",
+      "ip": "192.168.1.100",
+      "message": "Unusual query pattern detected - possible enumeration",
+      "line": 7
+    }
+  ]
+}

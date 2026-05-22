@@ -1,0 +1,7 @@
+[10-Jan-2026 02:14:33.421][ERROR][AUTH][uid:1001][IP:203.0.113.45] Authentication failed - bad credentials - attempt 1 of 5
+[10-Jan-2026 02:14:35.112][ERROR][AUTH][uid:1001][IP:203.0.113.45] Authentication failed - bad credentials - attempt 2 of 5
+[10-Jan-2026 02:14:37.334][ERROR][AUTH][uid:1001][IP:203.0.113.45] Authentication failed - bad credentials - attempt 3 of 5
+[10-Jan-2026 02:14:39.551][CRITICAL][AUTH][uid:1001][IP:203.0.113.45] Account LOCKED - max attempts exceeded
+[10-Jan-2026 06:01:22.004][INFO][AUTH][uid:2055][IP:192.168.1.100] Authentication successful - session started
+[10-Jan-2026 06:01:25.881][INFO][DB][uid:2055][IP:192.168.1.100] Query executed - SELECT * FROM users WHERE admin=1
+[10-Jan-2026 06:01:28.443][WARNING][DB][uid:2055][IP:192.168.1.100] Unusual query pattern detected - possible enumeration
