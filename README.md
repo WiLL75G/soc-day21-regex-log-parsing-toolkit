@@ -1,4 +1,4 @@
-# Regex SOC Toolkit + Log Parsing Lab
+# Log Parsing & Detection Engineering Toolkit: Regex to Splunk SPL (SOC Tier 1)
 
 **Author:** William Gokah  
 **GitHub:** [WiLL75G](https://github.com/WiLL75G)  
