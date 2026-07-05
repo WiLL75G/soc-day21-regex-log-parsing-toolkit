@@ -1,9 +1,5 @@
 # Log Parsing & Detection Engineering Toolkit: Regex to Splunk SPL (SOC Tier 1)
 
-**Author:** William Gokah  
-**GitHub:** [WiLL75G](https://github.com/WiLL75G)  
-**Focus:** SOC Tier 1 Analyst Detection Engineering & Log Analysis
-
 ---
 
 ## Executive Summary
