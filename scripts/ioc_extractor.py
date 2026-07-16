@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-IOC Extractor - SOC Analyst Toolkit
+IOC Extractor SOC Analyst Toolkit
 Author: William Gokah
 GitHub: WiLL75G
 Purpose: Extract and categorize IOCs from raw log files
