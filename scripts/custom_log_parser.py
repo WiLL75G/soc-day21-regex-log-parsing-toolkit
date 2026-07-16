@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Custom Log Parser - SOC Analyst Toolkit
+Custom Log Parser SOC Analyst Toolkit
 Author: William Gokah
 GitHub: WiLL75G
 Purpose: Parse non-standard application log formats into structured JSON
