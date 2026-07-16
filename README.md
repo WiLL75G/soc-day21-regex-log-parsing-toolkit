@@ -1,4 +1,3 @@
-```markdown
 # Log Parsing and Detection Engineering, Regex to Splunk SPL
 
 Regex is the interface between raw log text and detection logic. This is that workflow end to end: grep on the command line, Python automation, then production style SPL, including the rule that missed half its attacks and how that got found.
